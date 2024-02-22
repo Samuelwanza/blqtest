@@ -1,0 +1,71 @@
+.header-container{
+    width: 100%;
+    padding-left: 15vw;
+    padding-right: 15vw;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: lightgray solid 1px;
+    height: 8vh;
+    position: sticky;
+}
+
+.header-harm-wrapper{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    
+     
+}
+
+.main-harm-burger-wrapper{
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    gap: 3px;
+    
+}
+
+
+.harm-burger{
+    cursor: pointer;
+    color: rgb(0, 208, 148);
+}
+
+.bar-container{
+    display: flex;
+    align-items: center;
+}
+
+.searchbar{
+    position: relative;
+    font-size: 20px;
+    
+}
+.searchbar > input{
+
+    border: 1px lightgrey solid;
+    border-radius: 5px;
+    padding: 10px;
+    width: 300px;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.searchicon{
+    position: absolute;
+    top: 25%;
+    left: 3%;
+    
+}
+
+.sign-container{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.sign{
+    cursor: pointer;
+}
+

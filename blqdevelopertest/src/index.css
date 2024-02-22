@@ -1,0 +1,12 @@
+*{
+  margin: 0px;
+  font-family: Pretendard, serif;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  outline: none;
+  
+}
+img {
+  overflow-clip-margin: content-box;
+  overflow: clip;
+}

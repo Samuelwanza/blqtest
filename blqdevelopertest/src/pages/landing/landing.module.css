@@ -1,0 +1,97 @@
+.custom-carousel .control-arrow {
+    background-color: grey;
+  }
+
+  .landingContainer{
+    padding-left: 15vw;
+    padding-right: 15vw;
+    z-index: 9999;
+  }
+
+
+  .detailshortcut>img{
+    width: 50px;
+  }
+
+  .detailsContainer{
+    display: flex;
+    gap: 10px;
+    justify-content: space-around;
+    margin-top: 40px;
+  }
+
+  .cardItemsContainer{
+    display: flex;
+    margin-top: 70px;
+    gap: 20px;
+    
+    
+  }
+
+  .InnnerRowContainer{
+    margin-right: 20px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 5px;
+    width: 300px;
+    
+  }
+
+  .card{
+    position: relative;
+    text-align: left;
+    font-size: 14px;
+  }
+
+  .card>img{
+    width: 150px;
+    border-radius: 5px;
+  }
+
+  .productTag{
+    position: absolute;
+    top: 50%;
+    background: rgb(0, 158, 138);
+    color: white;
+    padding: 4px;
+    border-radius: 4px;
+  }
+
+  .priceInfo{
+    display: flex;
+    font-weight: bold;
+    margin-top: 5px;
+    align-self: center;
+  }
+
+  .priceInfo>p{
+    color: red;
+  }
+
+  .priceDenominator{
+    content: "원";
+    font-weight: 500;
+  }
+
+  .rating{
+    display: flex;
+    margin-top: 5px;
+  }
+
+  .itemPromoter{
+    width: 50vw;
+    font-size: 12px;
+    
+  }
+
+  .itemPromoter>span{
+    color: grey;
+    font-size: 10px;
+  }
+
+  .scroll{
+    
+    margin-top: 200px;
+    text-align: left;
+    color: grey;
+
+  }
